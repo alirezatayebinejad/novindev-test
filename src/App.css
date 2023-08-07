@@ -1,0 +1,21 @@
+:root {
+	--font-family: Arial, sans-serif;
+	--line-height: 1.6;
+	--background-body: rgb(246, 246, 246);
+	--main-color: #00c8be;
+	--main-color-darker: #10aca4;
+}
+body {
+	font-family: var(--font-family);
+	line-height: var(--line-height);
+	background-color: var(--background-body);
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+li {
+	list-style: none;
+}
