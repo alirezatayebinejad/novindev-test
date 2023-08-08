@@ -1,0 +1,37 @@
+/* Alerts.module.css */
+.alerts-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.alerts-title {
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+
+.alerts-buttons {
+	display: flex;
+	gap: 10px;
+}
+
+.alerts-button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.alerts-button:hover {
+	background-color: var(--main-color);
+}

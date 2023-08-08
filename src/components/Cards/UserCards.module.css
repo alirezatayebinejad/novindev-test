@@ -1,0 +1,25 @@
+.user_card {
+	border-radius: 8px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s;
+	cursor: pointer;
+}
+
+.user_card:hover {
+	transform: translateY(-5px);
+}
+
+.user_avatar {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.user_info p {
+	margin: 0;
+}

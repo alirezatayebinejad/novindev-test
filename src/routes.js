@@ -1,12 +1,15 @@
+import LoginPage from './pages/LoginPage';
+import LogoutPage from './pages/LogoutPage';
+import UsersPage from './pages/UsersPage';
+
 let routes = [
-    { path: "/", element: <p>home page</p> },
-    { path: "/users", element: <p>users page</p> },
+    { path: "/", element: <h2 align="center">Welcom to Novin dev test</h2> },
+    { path: "/users", element: <UsersPage /> },
     {
-        path: "/auth/*",
-        element: <p>auth page</p>,
+        path: "/auth",
         children: [
-            { path: "login", element: <p> login page</p> },
-            { path: "logout", element: <p> logout</p> },
+            { path: "login", element: <LoginPage /> },
+            { path: "logout", element: <LogoutPage /> },
         ],
     },
 ];
